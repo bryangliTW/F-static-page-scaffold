@@ -1,20 +1,127 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-ul {
-  list-style: none;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-color: #3b5998;
+  color: white;
+  width: 70%;
+  padding: 0 15%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: bolder;
+  align-self: center;
+  margin: 0;
+}
+
+.join-facebook {
+  align-self: center;
+}
+
+.register-button {
+  background-color: #42b72a;
+  height: 20px;
+  width: 60px;
+  margin-left: 10px;
+  margin-top: 5px;
+  border: none;
+  color: white;
+  outline: none;
   padding: 0;
+}
+
+.join-facebook {
+  margin-right: 10px;
+}
+
+.dropdown-icon {
+  width: 15px;
+  margin-top: 8px;
+  color: white;
+}
+
+.content {
+  width: 70%;
+  margin-top: 20px;
+  justify-self: center;
+}
+
+.actual-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub-title-block {
+  margin-bottom: 30px;
+}
+
+.sub-title {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.content-block {
+  width: 45%-20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  height: 450px;
+  text-align: center;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.title-content {
+  padding-bottom: 30px;
+}
+
+.content-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.content-content {
+  margin-bottom: 100px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content-button {
+  background-color: lightgray;
+  outline: none;
+  width: 80px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
